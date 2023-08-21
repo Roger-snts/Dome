@@ -8,7 +8,6 @@
 
 
 body{
-    height: 100vh;
     box-sizing: border-box;
     background-color: #F8F7F1;
     color: #002008;
@@ -17,6 +16,17 @@ body{
 
 header{
     background-color: #BAC4B1;
+}
+
+header > nav > ul > li {
+    display: inline-block;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+header > nav > ul > li > a{
+    color: #002008;
+    text-decoration: none;
 }
     
 .menu{
@@ -28,4 +38,30 @@ th, td {
     border-radius: 5px;
     background-color:#BAC4B1;
     text-align: center;
+}
+
+img#logo {
+    box-shadow: none;
+    display: inline-block;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+main {
+    padding: 5%;
+}
+
+main > img {
+    box-shadow: 2px 2px 6px black;
+}
+
+p {
+    word-spacing: 1em;
+    text-indent: 40px;
+    padding: 10px;
+    text-align: justify;
+}
+
+footer {
+    padding-left: 40px;
 }
